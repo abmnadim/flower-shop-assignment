@@ -75,9 +75,9 @@ nav li {
 
 .banner .top-pic {
     width: 600px;
-    height: 800px;
+    height: 680px;
     flex-shrink: 0;
-    margin-right: 200px;
+    margin-right: 70px;
 }
 
 .banner-title {
@@ -308,3 +308,44 @@ main section {
     display: flex;
     margin-left: 240px;
 }
+
+/* latest deal style */
+
+.latest-deal-container {
+    background-image: url('../Assets/Flower Asset/Rectangle 9.png');
+    background-position: center;
+    width: 1440px;
+    height: 449px;
+    position: relative;
+    border-radius: 8px;
+    margin-left: 245px;
+    margin-top: 130px;
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#email-field {
+    width: 600px;
+    height: 64px;
+    border: 0;
+    padding-left: 40px;
+    margin-left: 300px;
+}
+
+.latest-header {
+    padding-top: 100px;
+}
+

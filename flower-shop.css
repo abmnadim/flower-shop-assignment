@@ -2,6 +2,8 @@
 body {
     font-family: Lato;
     margin: 0px 200px;
+    width: 1920px;
+    height: 4867px;
 }
 
 .btn-primary {
@@ -58,6 +60,7 @@ nav li {
     height: 850px;
     flex-shrink: 0;
     background: rgba(229, 84, 115, 0.10);
+    background-position: bottom right, top left;
 }
 
 .banner {

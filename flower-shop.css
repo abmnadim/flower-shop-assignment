@@ -22,7 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 240px 0 200px;
 }
 
 .nav-title {
@@ -60,7 +60,7 @@ nav li {
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
+    padding: 50px 200px 0px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,19 +77,100 @@ nav li {
     margin-right: 200px;
 }
 
-.banner-greeting {
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0px;
-}
-
 .banner-title {
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    color: #272727;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .banner-description {
-    margin: 5px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+}
+
+/* main section styles */
+main {
+    margin: 250px auto;
+    width: 1920px;
+    height: 4867px;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* "our featured flower" section styles */
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#arch-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+
+#flower-1 {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+}
+
+#arch-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+
+#flower-2 {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    background-position: center;
+}
+
+#arch-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+
+#flower-3 {
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+}
+
+.featured-flower-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 200px;
 }

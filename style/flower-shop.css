@@ -1,9 +1,8 @@
 /* common shared styles */
 body {
     font-family: Lato;
-    margin: 0px 200px;
-    width: 1920px;
-    height: 4867px;
+    margin: 0;
+    padding: 0;
 }
 
 .btn-primary {
@@ -73,11 +72,9 @@ nav li {
     color: #E55473;
 }
 
-.banner .top-pic {
-    width: 600px;
+.top-pic {
+    width: 635px;
     height: 680px;
-    flex-shrink: 0;
-    margin-right: 70px;
 }
 
 .banner-title {
@@ -101,8 +98,6 @@ nav li {
 /* main section styles */
 main {
     margin: 250px auto;
-    width: 1920px;
-    height: 4867px;
 }
 
 main section {
@@ -114,18 +109,15 @@ main section {
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 .section-description {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    text-align: center;
 }
 
 .featured-flower {
@@ -213,17 +205,6 @@ main section {
     text-align: center;
     margin: 0 200px;
 }
-
-/* .service-info {
-    width: 88px;
-    height: 88px;
-    flex-shrink: 0;
-    color: rgba(39, 39, 39, 0.80);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 35px;
-} */
 
 .service-info-description {
     color: rgba(39, 39, 39, 0.80);
@@ -349,3 +330,42 @@ main section {
     padding-top: 100px;
 }
 
+/* footer style */
+
+footer {
+    display: block;
+    background-color: #181818;
+    margin-top: -200px;
+    padding: 100px 230px;
+}
+
+.footer-info {
+    width: 100%;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-title span {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}

@@ -49,10 +49,6 @@ nav li {
     margin-right: 50px;
 }
 
-/* nav a {
-    text-decoration: none;
-    color: #474747
-} */
 
 /* header related style */
 .header-class {
@@ -60,7 +56,6 @@ nav li {
     height: 850px;
     flex-shrink: 0;
     background: rgba(229, 84, 115, 0.10);
-    background-position: bottom right, top left;
 }
 
 .banner {
@@ -72,6 +67,10 @@ nav li {
 
 .banner-content {
     max-width: 500px;
+}
+
+.off {
+    color: #E55473;
 }
 
 .banner .top-pic {
@@ -237,4 +236,44 @@ main section {
 
 .service-info {
     margin: 80px 60px 0px 20px;
+}
+
+/* hot deal style */
+.deal {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 200px;
+}
+
+.hot-deal {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deal-content {
+    margin: 180px;
+}
+
+.deal-pic {
+    margin-top: 110px;
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
 }

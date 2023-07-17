@@ -1,6 +1,7 @@
 /* common shared styles */
 body {
     font-family: Lato;
+    margin: 0px 200px;
 }
 
 .btn-primary {
@@ -125,6 +126,10 @@ main section {
     line-height: 30px;
 }
 
+.featured-flower {
+    text-align: center;
+}
+
 #arch-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -168,9 +173,62 @@ main section {
     flex-shrink: 0;
 }
 
+
 .featured-flower-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 0 200px;
+    /* align-self: baseline; */
+}
+
+.featured-flower-description {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+/* service section style */
+.service {
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px 240px;
+    align-items: center;
+}
+
+.service-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 200px;
+}
+
+/* .service-info {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+} */
+
+.service-info-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.service-info {
+    align-self: center;
 }
